@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Heebo:wght@100;200;300;900&family=Shadows+Into+Light&display=swap');
+:root{
+--main: #fcb721;
+--main_soft: #fdcf6d;
+--sub: #fd8628;
+--sub_soft: #ffb175;
+--social_main: #4fbcbd;
+--social_sub: #4ed4b0;
+--esn: #76c047;
+--cn: #1394d2;
+--pn: #9e3d97;
+--kn: #e72c6a;
+--se: #010101;
+--sa: #053043;
+}
+
+
+
+.App {
+  text-align: center;
+}
+.navbar {
+  font-family: "ShadowsIntoLight";
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  background-image: linear-gradient(-135deg, #fdcf6d, #fd8628);
+  font-weight: 700;
+
+  width: 80vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
