@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Combo&family=Heebo:wght@100;200;300;900&family=Shadows+Into+Light&display=swap');
+
 :root {
   --main: #fcb721;
   --main_soft: #fdcf6d;
@@ -15,7 +15,7 @@
   --sa: #053043;
 }
 
-
+/* #liten {color: red} */
 .App {
   text-align: center;
 }
@@ -48,7 +48,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
